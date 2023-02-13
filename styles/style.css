@@ -7,9 +7,9 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: #222;
-    background: RGB(69, 69, 69, 70%);
+    font-family: Raleway, sans-serif;
+    color: rgb(6, 8, 6);
+    background: RGB(21, 23, 21, 70%);
   }
   /* Link Styles */
   
@@ -25,7 +25,7 @@
   
   .main-nav {
     width: 100%;
-    background: RGB(69, 69, 69, 90%);
+    background: RGB(6, 8, 6, 90%);
     min-height: 30px;
     padding: 15px;
     position: fixed;
@@ -35,6 +35,7 @@
   .main-nav /* Z-index added */ {
       z-index: 100;
   }
+
   .nav {
     display: flex;
     justify-content: space-around;
@@ -42,6 +43,18 @@
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+  }
+
+/* drop down nav bar */
+
+  .menu.active {
+    display: flex;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+
+  .fa.fa-bars {
+    color: RGB(213, 245, 213);
   }
   
   .nav
@@ -62,15 +75,20 @@
   
   .home-page {
     text-align: center;
-    background: url('../media/images/rsz_manchester_city_scape_4.jpg') no-repeat top center ;
+    background: url('../media/images/chesterSkyline.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
-    padding-top: 60px;
-    opacity: 1;
+    padding-top: 200px;
+    opacity: 0.5;
   }
   .home-page {
     line-height: 1.5;
   }
+
+  .home-page img p h1 {
+    opacity: 1;
+  }
+
   .home-page .profile-image {
     margin-top: 50px;
     width: 150px;
@@ -171,7 +189,7 @@
   
   .link-header {
     text-align: center;
-    background: url('images/rsz_manchester_city_scape_4.jpg') no-repeat top center ;
+    background: url('../media/images/rsz_manchester_city_scape_4.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
