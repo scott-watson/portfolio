@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/294616637f.css" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,14 +13,18 @@
 </head>
 
 <nav class="main-nav">
-    <ul class="nav">
-      <li class="name"><a href="index.html">Scott Watson</a></li>
-      <li><i class="fa-solid fa-bars" id="navTwo"></i></li>
-      <li id="nav"><a href="portfolio.html">Portfolio Gallery</a></li>
-      <li id="nav"><a href="#">C.V.</a></li>
-      <li id="nav"><a href="#">Hobbies</a></li>
-      <li id="nav"><a href="#">Contact</a></li>
-    </ul>
+    <div class="nav">
+        <a class ="name" href="index.html">Scott Watson</a>
+        <div class="dropdown">
+            <i class="fa-solid fa-bars" id="navTwo" onclick="myFunction()"></i>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="portfolio.html">Portfolio Gallery</a>
+                <a href="#">C.V.</a>
+                <a href="#">Hobbies</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </div>
 </nav>
 
 <header class="home-page">
