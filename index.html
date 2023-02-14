@@ -16,7 +16,7 @@
     <div class="nav">
         <a class ="name" href="index.html">Scott Watson</a>
         <div class="dropdown">
-            <i class="fa-solid fa-bars" id="navTwo" onclick="myFunction()"></i>
+            <i class="fa-solid fa-bars" id="navTwo" onclick="menuDropdown()"></i>
             <div id="myDropdown" class="dropdown-content">
                 <a href="portfolio.html">Portfolio Gallery</a><br>
                 <a href="#">C.V.</a><br>
@@ -35,37 +35,44 @@
 
 <main class="flex">
   <section class="card">
-    <a href="CV.html"><img src="media/images/icon-background.png" alt="Who am I icon" class="icon" title="Click to go to Scott's C.V."></a>
-    <h2>Who am I?</h2>
-    <p>I’m an aspiring web designer who loves everything about the web. I've lived in varoius cities around the U.K. and have travelled the world. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-    <p>I'm currently working in operational management in the hospitality industry, with background in sports coaching and construction.  I am always looking to enchance my skills.</p>
-    <p>If you would like to learn more about my work and educational background <a href="CV.html">click here</a></p>
+    <a href="#"><img src="media/images/icon-background.png" alt="Who am I icon" class="icon" title="Click to go to Scott's C.V."></a>
+    <div id="cardOne" class="cardOne">
+        <h2>Who am I?</h2>
+            <p>I’m an aspiring web designer who loves everything about the web. I've lived in varoius cities around the U.K. and have travelled the world. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
+            <p>I'm currently working in operational management in the hospitality industry, with background in sports coaching and construction.  I am always looking to enchance my skills.</p>
+            <p>If you would like to learn more about my work and educational background <a href="#">click here</a></p>
+    </div>
   </section>
 
   <section class="card">
     <a href="hobbies.html"><img src="media/images/icon-goals.png" alt="goals icon" class="icon" title="Click to go to Scott's Hobbies"></a>
-    <h2>Goals</h2>
-    <p>I want to enhance my skills and enter into the life of web development, with a keen interest in learning I aim to increase my knowledge in the following:</p>
-    <ul class="skills">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Ruby</li>
-      <li>Python</li>
-    </ul>
-    <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+    <div id="cardTwo" class="cardTwo">
+        <h2>Goals</h2>
+        <p>I want to enhance my skills and enter into the life of web development, with a keen interest in learning I aim to increase my knowledge in the following:</p>
+        <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Ruby</li>
+        <li>Python</li>
+        </ul>
+        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+    </div>
   </section>
 
   <section class="card">
-    <figure>
-      <img src="media/images/icon-dog.jpg" alt="dog icon" class="icon">
-      <img src="media/images/IMG_1525.jpg" alt="Scott and the Huskies image" class="index-image">
-      <figcaption>
-        <h4>The Huskies</h4>
-          Sat proud looking over Loch Ness.
-      </figcaption>
-    </figure>
-    <p>Welcome to the family, Sheldon and Boo (yes, I allowed the better half to name them...).</p>
+    <img src="media/images/icon-dog.jpg" alt="dog icon" class="icon">
+
+    <div id="cardThree" class="cardThree">
+        <figure>        
+        <img src="media/images/IMG_1525.jpg" alt="Scott and the Huskies image" class="index-image">
+        <figcaption>
+            <h3>The Huskies</h3>
+            <!-- Sat proud looking over Loch Ness. -->
+        </figcaption>
+        </figure>
+        <p>Welcome to the family, Sheldon and Boo.</p>
+    </div>
   </section>
 
 </main>

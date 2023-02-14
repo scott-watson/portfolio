@@ -1,6 +1,6 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function myFunction() {
+function menuDropdown() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
@@ -17,3 +17,4 @@ if (!event.target.matches('#navTwo')) {
     }
 }
 }
+

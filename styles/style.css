@@ -53,17 +53,17 @@
 
   .menu.active {
     display: flex;
-    margin-top: 1rem;;
+    margin-top: 1rem;
   }
 
   #navTwo {
     color: RGB(198, 207, 198);
     cursor: pointer;
-    width: 120%;
+    font-size: 1.5rem;
   }
 
   .dropdown {
-    float: right;
+    /* float: right; */
     right: 0;
     position: relative;
     display: inline-block;
@@ -74,19 +74,23 @@
     position: absolute;
     /* background-color: #f1f1f1; */
     min-width: 160px;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .dropdown-content a {
     color: RGB(6, 8, 6);
-    margin-top: 500px;
+    display: block;
+    padding: 0.3rem;
   }
 
   .dropdown-content a:hover {
-    font-weight: 120%;
+    font-weight: bold;
     color: rgb(176, 133, 199);
+    font-size: 120%;
   }
 
   .show {
@@ -116,8 +120,8 @@
     background: url('../media/images/chesterSkyline.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
-    padding-top: 200px;
-    opacity: 0.5;
+    padding-top: 10rem;
+    opacity: 0.6;
   }
   .home-page {
     line-height: 1.5;
@@ -153,6 +157,17 @@
     color: black;
     font-weight: bold;
   }
+
+/* main section */
+
+/* drop down hover over */
+
+.cardOne 
+.cardTwo 
+.cardThree {
+  display: none;
+}
+
   .card {
     margin: 30px;
     padding: 20px 40px 40px;
@@ -222,6 +237,8 @@
     transition: all .5s;
   
   }
+
+  
   
   /* CV & Hobbies styles */
   
